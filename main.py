@@ -23,7 +23,7 @@ def login_and_get_cookie():
     session = requests.Session()
     
     # 首先访问登录页面获取必要的信息
-    login_page_url = "https://ikuuu.de/auth/login"
+    login_page_url = "https://ikuuu.org/auth/login"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0'
     }
